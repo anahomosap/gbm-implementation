@@ -12,12 +12,8 @@ At the end of the notebook, there is a comparison of performance metrics between
 
 - Regression trees: Each regression tree in the GBM was built using the CART algorithm (specifically for regression trees, I used residual reduction, so minimizing the residual sum of squares). Because the classes were imbalanced, there is a penalty for incorrectly predicting target value of 1 (incur penalty 4 times more than if incorrectly predicting a class 0 customer) -- the GBM was able to train faster (needed 100 learners vs 300 learners to obtain the same performance metrics). 
 
-- Once the regression tree is built, the new probabilities are assigned to each customer based on the loss function [EDIT -- need to rewatch some StatQuest]
 
 - The GBM builds each of these regression tree sequentially, and with some learning rate creates the final predicted probabilities that each particular client will have their credit card line defaulted 
 
 - The final results yield similar performance metrics between the hard coded and built-in GradientBoostingClassifier with the same hyperparameters
 
-
-
-https://www.semanticscholar.org/paper/The-comparisons-of-data-mining-techniques-for-the-Yeh-Lien/1cacac4f0ea9fdff3cd88c151c94115a9fddcf33
