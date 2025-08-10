@@ -15,5 +15,4 @@ At the end of the notebook, there is a comparison of performance metrics between
 
 - The GBM builds each of these regression tree sequentially, and with some learning rate creates the final predicted probabilities that each particular client will have their credit card line defaulted 
 
-- The final results yield similar performance metrics between the hard coded and built-in GradientBoostingClassifier with the same hyperparameters
 
