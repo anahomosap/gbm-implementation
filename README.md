@@ -1,5 +1,3 @@
-# gbm-implementation
-
 ## Gradient Boosting Machine From Scratch
 
 Utilizing UCI ML Repo's dataset on Credit Card recall, I implemented a GBM from scratch to be able to predict whether or not a client's credit card line will be defaulted. 
