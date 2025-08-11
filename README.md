@@ -1,6 +1,6 @@
 ## Gradient Boosting Machine From Scratch
 
-Utilizing UCI ML Repo's dataset on Credit Card recall, I implemented a GBM from scratch to be able to predict whether or not a client's credit card line will be defaulted. 
+Utilizing UCI ML Repo's dataset on Credit Card recall, implemented a GBM from scratch to be able to predict whether or not a client's credit card line will be defaulted. 
 
 At the end of the notebook, there is a comparison of performance metrics between my implementation and scikit-learn's GradientBoostingClassifier using the same hyperparameters (# of learners/boosting stages, learning rate, tree depth/max tree depth). The main purpose of this project was to better understand the math and algorithms used to build Regression Trees and Gradient Boosting Machines.
 
