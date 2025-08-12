@@ -14,6 +14,6 @@ At the end of the notebook, there is a comparison of performance metrics between
 
 - This result is the log odds prediction for each client in that leaf at that particular number learner, which is then mulitplied by the learning rate and added to the initial prediction. The final prediction is the log odds prediction, that can then be converted using the inverse logit function to get the predicted probability that a particular client's credit card line will be defaulted
 
-$F_{0}$
+$F_{m, 0} + \alpha * F_{m, 1} + \alpha * F_{m, 2} + ... + \alpha * F_{m, n}$
 
 
