@@ -12,8 +12,8 @@ At the end of the notebook, there is a comparison of performance metrics between
 
 - For each residual predicted at a leaf node, the algorithm then finds the values to minimize each loss function, which is approximately the sum of the residuals in that particular leaf, divided by the sum of each product of the predicted probability times 1 - the predicted probability
 
-- This result is the log odds prediction for each client (example below for client m) in that leaf at that particular number learner, which is then mulitplied by the learning rate ($\alpha$) and added to the initial prediction ($F_{m, 0}$). The final prediction is the log odds prediction for an individual client ($L_{m}$), that can then be converted using the inverse logit function to get the predicted probability that a particular client's credit card line will be defaulted
+- This result is the log odds prediction for each client (example below for client m) in that leaf at that particular number learner, which is then mulitplied by the learning rate ($\alpha$) and added to the initial prediction ($F_{m, 0}$). The final prediction is the log odds prediction for an individual client ($L_{m}$), that can then be converted using the inverse logit function to get the predicted probability ($P_{m}$) that a particular client's credit card line will be defaulted
 
-- $L_{m} = F_{m, 0} + \alpha * F_{m, 1} + \alpha * F_{m, 2} + ... + \alpha * F_{m, n}$
+- $L_{m} = F_{m, 0} + \alpha * F_{m, 1} + \alpha * F_{m, 2} + ... + \alpha * F_{m, n};\tab\tab P_{m} = $
 
 
